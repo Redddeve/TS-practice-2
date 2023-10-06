@@ -3,9 +3,10 @@
 */
 interface Props {
   title: string;
+  // pageInfo?(): void;
 }
 
-class Component<T extends Props> {
+class Component<T> {
   constructor(public props: T) {}
 }
 
